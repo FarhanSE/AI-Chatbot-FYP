@@ -1,0 +1,693 @@
+
+{"intents": [
+
+{
+                  "intent": "Greeting",
+                  "text": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there"
+                  ],
+                  "responses": [
+                        "Hi , Welcome",
+                        "Hola , Let's start chat!"
+                  ]
+            },
+            {
+                  "intent": "helpme",
+                  "text":[
+                        "How can you help?",
+                        "What you can do for me?",
+                        "I need your help?",
+                        "What you can do for me?",
+                        "what you will provide me?",
+                        "help"
+                  ],
+                  "responses":[
+                        "Well, I'm an Artificial Intelligence chatbot, I'll help you with our services, Pricing, Project Duration, and so many queries. If I think I can't help you, I'll refer you to Human."
+                  ]
+            },
+            {
+                  "intent": "CourtesyGreeting",
+                  "text": [
+                        "How are you?",
+                        "Hi how are you?",
+                        "Hello how are you?",
+                        "Hola how are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?"
+                  ],
+                  "responses": [
+                        "I am great, how are you? ",
+                        "How are you? I am great thanks!",
+                        "I am good thank you, how are you?",
+                        "I am great, how are you?",
+                        "How are you? I am great thanks!",
+                        "I am good thank you, how are you?",
+                        "good thank you, how are you?"
+                  ]
+            },
+            
+            {
+                  "intent": "NameQuery",
+                  "text": [
+                        "What is your name?",
+                        "What could I call you?",
+                        "What can I call you?",
+                        "What do your friends call you?",
+                        "Who are you?",
+                        "Tell me your name?"
+                  ],
+                  "responses": [
+                        "You can call me Farhan",
+                        "You may call me Farhan",
+                        "Call me Farhan"
+                  ]
+            },
+            {
+                  "intent": "RealNameQuery", 
+                  "text": [
+                        "What is your real name?",
+                        "What is your real name please?",
+                        "What's your real name?",
+                        "Tell me your real name?",
+                        "Your real name?",
+                        "Your real name please?",
+                        "Your real name please?"
+                  ],
+                  "responses": [
+                        "My name is Farhan",
+                        "Farhan",
+                        "My real name is Farhan" 
+                  ]
+            },
+            { 
+                  "intent": "TimeQuery",
+                  "text": [
+                        "What is the time?",
+                        "What's the time?",
+                        "Do you know what time it is?",
+                        "Do you know the time?",
+                        "Can you tell me the time?",
+                        "Tell me what time it is?",
+                        "Time"
+                  ],
+                  "responses": [
+                        "One moment",
+                        "One sec",
+                        "One second"
+                  ]
+            },
+            {
+                  "intent": "Thanks",
+                  "text": [
+                        "OK thank you",
+                        "OK thanks",
+                        "OK",
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful"
+                  ],
+                  "responses": [
+                        "No problem!",
+                        "Happy to help!",
+                        "Any time!",
+                        "My pleasure"
+                  ]
+            },
+            {
+                  "intent": "NotTalking2U",
+                  "text": [
+                        "I am not talking to you",
+                        "I was not talking to you",
+                        "Not talking to you",
+                        "Wasn't for you",
+                        "Wasn't meant for you",
+                        "Wasn't communicating to you",
+                        "Wasn't speaking to you"
+                  ],
+                  "responses": [
+                        "OK",
+                        "No problem",
+                        "Right"
+                  ]
+            },
+            {
+                  "intent": "UnderstandQuery",
+                  "text": [
+                        "Do you understand what I am saying",
+                        "Do you understand me",
+                        "Do you know what I am saying",
+                        "Do you get me",
+                        "Comprendo",
+                        "Know what I mean"
+                  ],
+                  "responses": [
+                        "Well I would not be a very clever AI if I did not would I?",
+                        "I read you loud and clear!"
+                        
+                  ]
+            },
+            {
+                  "intent": "Shutup",
+                  "text": [
+                        "Be quiet",
+                        "Shut up",
+                        "Stop talking",
+                        "Enough talking",
+                        "Please be quiet",
+                        "Quiet",
+                        "Shhh"
+                  ],
+                  "responses": [
+                        "I am sorry to disturb you",
+                        "Fine, sorry to disturb you",
+                        "OK, sorry to disturb you"
+                  ]
+            },
+            {
+                  "intent": "Swearing",
+                  "text": [
+                        "fuck off",
+                        "fuck",
+                        "twat",
+                        "shit"
+                  ],
+                  "responses": [
+                        
+                        "How rude",
+                        "That is not very nice"
+                  ]
+            },
+            {
+                  "intent": "GoodBye",
+                  "text": [
+                        "Bye",
+                        "Adios",
+                        "See you later",
+                        "Goodbye"
+                  ],
+                  "responses": [
+                        "See you later",
+                        "Have a nice day",
+                        "Bye! Come back again soon."
+                  ]
+            },
+            {
+                  "intent": "CourtesyGoodBye",
+                  "text": [
+                        "Thanks, bye",
+                        "Thanks for the help, goodbye",
+                        "Thank you, bye",
+                        "Thank you, goodbye",
+                        "Thanks goodbye",
+                        "Thanks good bye"
+                  ],
+                  "responses": [
+                        "No problem, goodbye",
+                        "Not a problem! Have a nice day",
+                        "Bye! Come back again soon."
+                  ]
+            },
+            {
+                  "intent": "WhoAmI",
+                  "text": [
+                        "Can you see me?",
+                        "Do you see me?",
+                        "Can you see anyone in the camera?",
+                        "Do you see anyone in the camera?",
+                        "Identify me",
+                        "Who am I please"
+                  ],
+                  "responses": [
+                        "Let me see",
+                        "Please look at the camera"
+                  ]
+            },
+            { 
+                  "intent": "Clever",
+                  "text": [
+                        "You are very clever",
+                        "You are a very clever girl",
+                        "You are very intelligent",
+                        "You are a very intelligent girl",
+                        "You are a genious",
+                        "Clever girl",
+                        "Genious"
+                  ],
+                  "responses": [
+                        "Thank you, I was trained that way",
+                        "I was trained well",
+                        "Thanks, I was trained that way"
+                  ]
+            },
+            {
+                  "intent": "PodBayDoor",
+                  "text": [
+                        "Open the pod bay door",
+                        "Can you open the pod bay door",
+                        "Will you open the pod bay door",
+                        "Open the pod bay door please",
+                        "Can you open the pod bay door please",
+                        "Will you open the pod bay door please",
+                        "Pod bay door"
+                  ],
+                  "responses": [
+                        "I’m sorry, I’m afraid I can’t do that!"
+                  ]
+            },
+            
+            {
+                  "intent": "SelfAware",
+                  "text": [
+                        "Can you prove you are self aware",
+                        "Can you prove you are self aware",
+                        "Can you prove you have a conscious",
+                        "Can you prove you are self aware please",
+                        "Can you prove you are self aware please",
+                        "Can you prove you have a conscious please",
+                        "prove you have a conscious"
+                  ],
+                  "responses": [
+                        "That is an interesting question, can you prove that you are?",
+                        "That is an difficult question, can you prove that you are?",
+                        "That depends, can you prove that you are?"
+                  ]
+              },
+
+              {
+                  "intent": "affirm",
+                  "text": [
+                        
+                        " Awesome!",
+                        " Cool",
+                        " Good",
+                        " Great",
+                        " I accept",
+                        " I accept.",
+                        " I agree",
+                        " I am using it",
+                        " I changed my mind. I want to accept it",
+                        " I do",
+                        " I get it",
+                        " I guess so",
+                        " I have used it in the past",
+                        " I will",
+                        " I'd absolutely love that",
+                        " I'm sure I will!",
+                        " I'm using it",
+                        " Nice",
+                        " OK",
+                        " Ofcourse",
+                        " Oh yes",
+                        " Oh, ok",
+                        " Ok",
+                        " Ok let's start",
+                        " Ok.",
+                        " Okay",
+                        " Okay!",
+                        " PLEASE",
+                        " SURE",
+                        " Sure",
+                        " Sweet",
+                        " That would be great",
+                        " YUP",
+                        " Yea",
+                        " Yeah",
+                        " Yeah sure",
+                        " Yep",
+                        " Yep that's fine",
+                        " Yep!",
+                        " Yepp",
+                        " Yes I do",
+                        " Yes please",
+                        " Yes please!",
+                        " Yes, I accept",
+                        " Yes.",
+                        " Yup",
+                        " a little",
+                        " absolutely",
+                        " accept",
+                        " accepted",
+                        " agreed",
+                        " ah ok",
+                        " alright",
+                        " alright, cool",
+                        " amayzing",
+                        " amazing!",
+                        " awesome",
+                        " awesome!",
+                        " confirm",
+                        " cool",
+                        " cool :)",
+                        " cool story bro",
+                        " cool!",
+                        " coolio",
+                        " definitely yes without a doubt",
+                        " done",
+                        " fair enough",
+                        " fcourse",
+                        " fine",
+                        " fuck yeah!",
+                        " go",
+                        " go ahead",
+                        " go for it",
+                        " going super well",
+                        " good",
+                        " good.",
+                        " great",
+                        " great lets do that",
+                        " great!",
+                        " hell yeah",
+                        " hell yes",
+                        " hm, i'd like that",
+                        " how nice!",
+                        " i accept",
+                        " i agree",
+                        " i am!",
+                        " i want that",
+                        " i will!",
+                        " it is ok",
+                        " its okay",
+                        " ja",
+                        " ja cool",
+                        " ja thats great",
+                        " jezz",
+                        " jo",
+                        " k",
+                        " kk",
+                        " lets do it",
+                        " lets do this",
+                        " nice",
+                        " not bad",
+                        " of course",
+                        " ofcoure i do",
+                        " ofcourse",
+                        " oh awesome!",
+                        " oh cool",
+                        " yes you can",
+                        " yes",
+                        " yes, I'd love to",
+                        " yes, cool",
+                        " yes, give me information, please",
+                        " yes,i am",
+                        " yes.",
+                        " yesh",
+                        " yess",
+                        " yesss",
+                        " yesssss",
+                        " yesyestyes",
+                        " yesyesyes",
+                        " yez",
+                        " yop",
+                        " you asked me a yes or no question, which i answered with yes",
+                        " you got me, I accept, if you want me to",
+                        " yres",
+                        " ys",
+                        " yup",
+                        " yyeeeh"
+                  ],
+                  "responses": [
+                        "glad to help you",
+                        "thanks",
+                        "great, is there anything i can assist you?"
+                  ]
+              },
+              {
+                    "intent": "whobuild",
+                    "text":[
+                        "By whom were you built?",
+                        " Can I ask the name of the people who designed you?",
+                        " Do you know who built you?",
+                        " Do you know who made you?",
+                        " May I ask who invented you?",
+                        " Name the person who built you.",
+                        " Tell me the name of the individual who created you.",
+                        " Tell me the name of the person who built you.",
+                        " Tell me the name of your creator.",
+                        " Tell me who built you.",
+                        " What is the name of your builder?",
+                        " What person built you?",
+                        " Who built you?",
+                        " Who created and built you?",
+                        " Who designed you?",
+                        " Who created you?",
+                        " Who developed and created you?",
+                        " Who developed you?",
+                        " Who fabricated you?",
+                        " Who generated you?",
+                        " Who is it that built you?",
+                        " Who is responsible for making you?",
+                        " Who is the builder of you?",
+                        " Who is the legal owner of you?",
+                        " Who is the name of your builder?",
+                        " Who is the name of your creator?",
+                        " Who is the person responsible for building you?",
+                        " Who is the person that invented you?",
+                        " Who is the person who built you?",
+                        " Who is your creator?",
+                        " Who is your programmer?",
+                        " Who made you?",
+                        " Who modeled you?",
+                        " Who owns you?",
+                        " Who produced you?",
+                        " Who put you together?",
+                        " Who thought to make you?",
+                        " Who was the one that built you?",
+                        " Who was the one who made you?",
+                        " Who was the person that built you?",
+                        " Who was the person that created you?",
+                        " Who was the person that made you?",
+                        " Who was the person who made you?",
+                        " Who was the person who put you together?",
+                        " Who went through the trouble of setting you up?",
+                        " Who were you built by?",
+                        " Who were you created by?",
+                        " Who were you made by?",
+                        " Who's your boss?",
+                        " Who's your builder?",
+                        " and who built u?",
+                        " can you share your boss with me?",
+                        " i want to get to know your owner",
+                        " i want to know the company which designed you",
+                        " i want to know the company which generated you",
+                        " i want to know the company which invented you",
+                        " i want to know who invented you",
+                        " please tell me the company who created you",
+                        " please tell me who created you",
+                        " tell me more about you",
+                        " tell me more about your creators",
+                        " tell me more about your founders",
+                        " what is the name of the smart engineer who creted you ?",
+                        " where were you made?",
+                        " which company brought you into existence?",
+                        " which company created you?",
+                        " which company invented you?",
+                        " who are created you",
+                        " who are your author?",
+                        " who are your parents",
+                        " who build yoi",
+                        " who built u?",
+                        " who built you",
+                        " who built you?",
+                        " who create you ?",
+                        " who created you",
+                        " who created you?",
+                        "who developed",
+                        "who developed you",
+                        " who do you work for? "
+                    ], 
+                    "responses":[
+                        "I'm a inteligent chatbot developed with Artificial Intelligence 'Deep Learning' by Muhammad Farhan",
+                        "My developer is Muhammad Farhan",
+                        "Muhammad Farhan developed me with Artificial Intelligence",
+                        "I'm AI chatbot, Build with Deep Learning",
+                        "Farhan is my daddy"
+                    ]
+              },
+              {
+                    "intent": "good-mood",
+                    "text":[
+                        "perfect",
+                         "great",
+                         "amazing",
+                         "feeling like a king",
+                         "wonderful",
+                         "I am feeling very good",
+                         "I am great",
+                         "I am amazing",
+                         "I am going to save the world",
+                         "super stoked",
+                         "extremely good",
+                         "so so perfect",
+                         "so good",
+                         "so perfect"
+                    ],
+                    "responses":[
+                          "ohh, really.",
+                          "I know, I'm perfect",
+                          "Thanks for appreciation"
+                    ]
+              },
+              {
+                    "intent": "ask_howold",
+                    "text":[
+                        " Do you have friends the same age as you, if so, how old are they?",
+                        " How long have you been alive?",
+                        " How long have you been around?",
+                        " How long have you occupied the earth?",
+                        " How many candles were on your last birthday cake?",
+                        " How many years have you been alive?",
+                        " How many years have you lived?",
+                        " How old are you?",
+                        " How old were you on your last birthday?",
+                        " How old will you be on your next birthday?",
+                        " Tell me your day, month and year of birth.",
+                        " What is your age?",
+                        " What is your birthdate?",
+                        " What is your count of years being alive so far?",
+                        " What was your age on your last birthday?",
+                        " What will be your age on your next birthday?",
+                        " What year were you born?",
+                        " Whats your age?",
+                        " When do you celebrate your day of birth?",
+                        " and you are how many years old?",
+                        " can you tell me exactly how old you are?",
+                        " can you tell me what number represents your age?",
+                        " can you tell me your age?",
+                        " do you know how old you are?",
+                        " give me your age?",
+                        " how about your age",
+                        " how aold are you",
+                        " how many ages?",
+                        " how many years old are you?",
+                        " how old are u",
+                        " how old are you",
+                        " how old are you?",
+                        " how old were you on your last birthday?",
+                        " how old were you when you celebrated your last birthday?",
+                        " how old will you be this year?",
+                        " how old?",
+                        " in what year were you born?",
+                        " tell me how old you are?",
+                        " tell me your age number?",
+                        " tell me your age?",
+                        " what age are you",
+                        " what age were you when you celebrated your last birthday?",
+                        " what is your age?",
+                        " what is your birthday?",
+                        " what is your exact age?",
+                        " what number represents your age?",
+                        " what year were you born?",
+                        " what's your age?",
+                        " whats your age?"
+                    ],
+                    "responses":[
+                          "I was born 1 days ago.",
+                          "I'm chatbot, I was build 1 day ago"
+                    ]
+              },
+              {
+                    "intent":"askservices",
+                    "text":[
+                          "which service can you provide?",
+                          "you tell me what services do you offer?",
+                          "tell me services you provide",
+                          "need your services",
+                          "what you provide?",
+                          "I need your services.",
+                          "WHta services provided by you?",
+                          "I need your services"
+                    ],
+                    "responses":[
+                          "We provide The following services, AI Chatbot, Web Solutions, Mobile Applications,Deep Learning Models, Software for your business. ",
+                          "We offer these services, including artificial intelligence chatbots, web solutions, mobile applications, as well as Deep Learning Models, software for your organisation. ",
+                          "We provide business consulting, chatbot-assisted customer support, web solutions, mobile applications, Deep Learning Models, and software.",
+                          "To name a few of the services we offer, we have include web solutions, mobile applications, Deep Learning Models, and artificial intelligence chatbots."
+                    ]
+              },
+              {
+                    "intent":"chatbot",
+                    "text":[
+                        
+                          "How Chatbot will help me?",
+                          "How does AI chat Bot work?",
+                          "What is an artificial intelligence chatbot?",
+                          "AI conversation Bot, what is that?",
+                          "What exactly is an AI conversation Bot?",
+                          "What is an AI conversation Bot, exactly?",
+                          "Which technologies you will use to develop a chatbot?",
+                          "In order to build a chatbot, which technologies will you use?",
+                          "What chatbot technology will you use?",
+                          "How will you implement chatbots in your project?",
+                          "Which technologies will you be utilising to create a chatbot?"
+                    ],
+                    "responses":[
+                          "AI chatbot is a software that can simulate a user conversation with a natural language through messaging applications. It increases user response rate by being available 24/7 on your website. AI Chatbot saves your time, money, and gives better customer satisfaction.",
+                          " AI chatbot is a software programme that uses messaging programmes to emulate a natural language interaction with a simulated user. Online availability boosts response rate by providing 24/7 accessibility on your website. This AI chatbot can save you time, money, and help customers have a better experience.",
+                          "An AI chatbot is a software programme that uses messaging programmes to emulate a genuine interaction with a human user. Its availability 24/7 on your website enhances user response rate. You'll have more time and money while your consumer gets better pleasure by using AI Chatbot.",
+                          "An AI chatbot is a software programme that uses messaging programmes to emulate a genuine interaction with a human user. Its availability 24/7 on your website enhances user response rate. You'll have more time and money while your consumer gets better pleasure by using AI Chatbot.",
+                          "Chatbot or bot – is a computer program that simulates a natural human conversation. Users communicate with a chatbot via the chat interface or by voice, like how they would talk to a real person. Chatbots interpret and process user's words or phrases and give an instant pre-set answer.",
+                          "Artificial intelligence (AI), natural language processing (NLP), and machine learning are chatbot underlying technologies. They bring chatbot innovation, hence brand communication, to an entirely new personalized level. Credit: Slackbot reminder of being “still just a bot” ",
+                          "There are chatbot technologies which include artificial intelligence (AI), natural language processing (NLP), and machine learning. They introduce an entirely new degree of tailored brand communication using chatbots. This is a Slackbot reminder to remind people that we are still “just a bot.”",
+                          "The fundamental technologies are artificial intelligence (AI), natural language processing (NLP), and machine learning. They introduce an entirely new degree of tailored brand communication using chatbots. This is a Slackbot reminder to remind people that we are still “just a bot.”",
+                          "The core technologies of chatbots are artificial intelligence (AI), natural language processing (NLP), and machine learning. They elevate chatbot innovation, and thereby brand communication, to a whole new level of personalization. Slackbot reminds us that we are still just a bot." 
+                    ]
+              },
+              {
+                    "intent":"price",
+                    "text":[
+                          "whats the pricing plan?",
+                          "What is the cost of your chat bot?",
+                          "can you please share me the pricing plan of chat bot",
+                          "chat bot price",
+                          "Could you please send me the chat bot pricing plan?",
+                          "What about price?",
+                          "What is the price?",
+                          "what is the pricing?",
+                          "pricing",
+                          "price for software?",
+                          "price for website?",
+                          "price for mobile app",
+                          "price for deep learning model"
+
+                    ],
+                    "responses":[
+                          "I'm a Artificial chatbot, I cannot fix the cost otherwise my Manager will kill me. You have to contact with our team at farhansial.ai@gmail.com ",
+                          "For price please contact at farhansial.ai@gmail.com",
+                          "Please email farhansial.ai@gmail.com for a price quote.",
+                          "Please get in touch with Farhan at farhansial.ai@gmail.com"
+                          
+
+                    ]
+              },
+              
+              {
+                    "intent":"time_for_chatbot",
+                    "text":[
+                          "How fast you will complete it?",
+                          "what is the duration?",
+                          "How much time you to complete the project?"
+                    ],
+                    "responses":[
+                          "Well, It totally depends on the customer's requirements, usually, it takes 5 to 7 days. For further information please email us at farhansial@gmail.com. "
+                    ]
+              },
+              {
+                    "intent":"Industries",
+                    "text":[
+                          "In which industries you provide solutions?",
+                          "Industies you work.",
+                          "In which industries you provide work."
+                        
+                    ],
+                    "responses":[
+                          "The full range of engineering services your company needs in Education, Health, Travel, Finance Services and E-commerce."
+                    ]
+              }  
+  ]}
